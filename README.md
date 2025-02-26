@@ -19,10 +19,10 @@ Table of Contents
 # File Structure
 
 Task-Manager
--home.html # Landing page of the application 
--auth.html # Login page 
--register.html # Registration page 
--task_creation.html # Task creation page 
+- home.html # Landing page of the application 
+- auth.html # Login page 
+- register.html # Registration page 
+- task_creation.html # Task creation page 
 - task_dashboard.html # Dashboard for displaying tasks 
 - task_details.html # Page to view task details 
 - images/ # Folder containing image assets for the app 
