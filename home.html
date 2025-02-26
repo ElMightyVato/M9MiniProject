@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Management App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Had to add this bottom style since one of my images the dashboard one would not
+   match the size of my othr two images -->
+  <style> -->
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">Task Manager</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="task_dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="task_creation.html">Create Task</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="auth.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron for Welcome Message -->
+  <div class="jumbotron text-center mt-4">
+    <h1 class="display-4">Welcome to Task Management App</h1>
+    <p class="lead">Manage your tasks efficiently with this easy-to-use app.</p>
+  </div>
+
+  <!-- Cards for Features -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/Dashboard.jpg" class="card-img-top img-fluid" alt="Task Dashboard">
+          <div class="card-body">
+            <h5 class="card-title">Task Dashboard</h5>
+            <p class="card-text">Manage your tasks and track their progress.</p>
+            <a href="task_dashboard.html" class="btn btn-primary">Go to Dashboard</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/Create task.jpg" class="card-img-top" alt="Create Task">
+          <div class="card-body">
+            <h5 class="card-title">Create New Task</h5>
+            <p class="card-text">Add new tasks.</p>
+            <a href="task_creation.html" class="btn btn-primary">Create Task</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/Login.jpg" class="card-img-top" alt="User Login">
+          <div class="card-body">
+            <h5 class="card-title">User Login</h5>
+            <p class="card-text">Login to manage and view your tasks.</p>
+            <a href="auth.html" class="btn btn-primary">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
