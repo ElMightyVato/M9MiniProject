@@ -29,6 +29,6 @@ Task-Manager
 - README.md # Project documentation
 
 # Technologies Used
-HTML: Used for creating the structure of the web pages.
-Bootstrap: For responsive design and layout components like cards, forms, buttons, etc.
-CSS: Some basic inline styles for additional customization (e.g., image sizes).
+- HTML: Used for creating the structure of the web pages.
+- Bootstrap: For responsive design and layout components like cards, forms, buttons, etc.
+- CSS: Some basic inline styles for additional customization (e.g., image sizes).
